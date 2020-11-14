@@ -38,45 +38,21 @@
     </div>  
         
          <!-- autocomplete -->
-     <div class="row">
+        <div class="row">
     <div class="col autocomp-onboarding3">
-         <div class="md-form justify-content-center search">
-  <input type="search" id="form-autocomplete" class="form-control mdb-autocomplete " onclick="openOverlay()"  style="width: 80%; margin-left: 20px;">  
-  
-  <label for="form-autocomplete"  class="active label-search" >Buscá recetas &nbsp;<i class="fas fa-search" aria-hidden="true" style="text-align: right;"></i></label>
-</div>
+        <div class="search">
+  <input type="search" id="form-autocomplete"  onclick="document.location='search.html'"  style="width: 80%; margin-left: 20px; border: 0px!important;">  
+  <div class=" justify-content-center ">
+  <label for="form-autocomplete"  class="label-search" >Buscá recetas &nbsp;<i class="fas fa-search" aria-hidden="true" aria-label="Buscar" style="text-align: right;"></i></label>
+            </div></div>
+         
          </div>    
         
     </div>
+    
         
-        <div id="myOverlay" class="overlay">
-             <div class="row inputautocomplete">
-    <div class="col-9">
-         <div class="md-form ">
-  <input type="search" id="form-autocomplete2" class="form-control mdb-autocomplete">
-  
-  <label for="form-autocomplete2"  class="active">Buscar recetas</label>
-            
-</div>
-         </div>   
- <div class="col-3">  <a onclick="closeOverlay()">Cancelar</a></div>
         
-    </div>
-           
-  
-  
-</div>
-    <script type="text/javascript">
-   // Open the full screen search box
-function openOverlay() {
-  document.getElementById("myOverlay").style.display = "block";
-}
-
-// Close the full screen search box
-function closeOverlay() {
-  document.getElementById("myOverlay").style.display = "none";
-}
-</script>   
+    
         
         <div class="row opciones">  
     <div class=" cardhome">

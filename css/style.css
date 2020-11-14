@@ -1,0 +1,553 @@
+body{max-width: 360px;
+background-color: var(--white-bg);}
+.btn-rounded{
+border-radius: 50px;
+width: 100%;
+ margin: 0 auto;
+text-transform: none;
+    position:static;
+    bottom: 20px;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--green-main);
+}
+.btn-primary{
+     background-color: var(--green-main) !important;
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1.25;
+line-height: 16px;
+font-size: 16px;
+height: 48px;
+}
+
+.btn-link{
+color: var(--green-main) !important;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1.25;
+line-height: 16px;
+font-size: 16px;  
+text-transform: none;
+    
+}
+
+:root {  
+  --green-main: #007370;  
+  --black-main: #190933;  
+  --white-bg: #FAFAFA;
+  --gray-medium: #8F8FB2;  
+  --gray-dark: #616181;  
+  --red: #FF5959;
+  --green-secondary: #D2EBC7;  
+  --lime-green: #ECF2DE;  
+  --white: #FFFFFF;
+  --gray-light: #CACADB;  
+  --green-dark: #005957;  
+  --yellow-star: #FFBF00;
+  --green-aqua: #D5EAE4;  
+  --purple: #E1C7FF;  
+  --sky: #B3F4F9;
+}
+
+p{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+letter-spacing: 1.25;
+line-height: 20px;
+font-size: 14px;
+color: var(--gray-dark);   
+}
+
+.subtitle{
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1;
+line-height: 20px;
+font-size: 16px;
+color: var(--black-main);  
+text-align: center;
+    
+}
+
+h6{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+letter-spacing: 0.5px;
+line-height: 24px;
+font-size: 16px;
+color: var(--gray-dark);  
+text-align: center;
+    
+}
+
+
+h4{
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1.25;
+line-height: 28px;
+font-size: 24px;
+color: var(--black-main);      
+    
+}
+
+
+h2{
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1;
+line-height: 34px;
+font-size: 30px;
+color: var(--black-main);  
+text-align: center;
+    
+}
+
+.fa-arrow-left{
+    color: var(--gray-dark) !important; 
+    text-align: left;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    background-color: var(--green-aqua) !important;
+    border-color: var(--white)!important;
+}
+
+#bienvenida{padding-top: 40px;}
+
+.btn:focus {
+    border: 1px #333333;
+}
+button:focus {
+  border: 1px dotted #999999;
+ outline: none; 
+}
+
+button{display: block;
+    margin: 0 auto;
+align-items: center;}
+
+#bienvenida{margin: auto;
+text-align: center;}
+
+.onboarding1-txt{padding-top: 1rem;}
+
+.checkbox-comida{
+    border-radius: 100px;
+  
+    width: 64px;
+    height: 64px;
+}
+
+.checkbox-comida input{
+ padding-left: 30px;
+}
+.label-comida{text-align: center;}
+
+.opciones{padding-top:30px;}
+
+.paso{height: 100px;
+vertical-align: middle;}
+
+.fixedbutton {
+    position: fixed;
+   bottom: 20px;
+    width: 90%;
+    margin: auto;
+    
+     
+}
+
+.custom-control-input:checked~.custom-control-label::before{
+    background-color: var(--green-main)!important;
+    
+}
+.alergias{
+text-align: left; 
+}
+
+h5{ text-align: left;}
+
+
+
+/* The overlay effect with black background */
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  
+}
+
+a{font-weight: bold;
+color: green;}
+
+.inputautocomplete{
+    margin-top: 20px;
+    width: 95%;
+    margin: auto;
+}
+.autocomp-onboarding3{
+    width: 80%;
+}
+
+.search{
+    height: 48px;
+    border: solid 1px #E0E0E0;
+    border-radius: 24px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+.label-search{
+    padding-left: 15px;
+    font-family: 'Inter', sans-serif;
+font-weight: 400;
+letter-spacing: 0.5px;
+line-height: 18px;
+font-size: 16px;
+color: var(--gray-dark);  
+}
+
+.titulo-paso3{
+    text-align: center;
+}
+
+
+.navselected{
+color: #219653;
+font-weight: 900;
+}
+
+.navoptions{
+    color: #333333;
+    font-weight: 900;
+    
+}
+
+.navoptions img{
+    color: #333333;
+    
+}
+
+.cardhome{
+background: var(--white);
+border-radius: 12px;
+margin: 0 auto;
+width: 315px;
+height: 248px;
+left: 16px;
+box-shadow: 0px 4px 8px rgba(143, 143, 178, 0.15);
+
+}
+
+.cardtitle{
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+padding-left: 10px;
+
+
+}
+
+.bajada-card{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}
+
+.nombrereceta{
+margin-top: 10px;
+    
+}
+.tag{
+    font-family: 'Inter', sans-serif;
+font-weight: 400;
+letter-spacing: 0.5px;
+line-height: 16px;
+font-size: 12px;
+color: var(--green-dark); 
+background-color: var(--green-secondary);
+border-radius: 8px;
+    height: 16px;
+}
+
+#hidden{display: none;}
+
+
+
+.logo-inicio{
+    margin: 50px;
+}
+
+.stepper-pasos{
+    text-decoration: none;
+    list-style: none;
+   text-align: right;
+}
+
+.circle{
+  background-color: var(--gray-dark);
+height: 8px !important;
+    width:8px;
+    border-radius: 50%;
+}
+
+.circle-selected{
+  background-color: var(--green-main);
+height: 10px !important;
+    width:10px;
+    border-radius: 50%;
+}
+
+label.label-comida2{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+letter-spacing: 1.25;
+line-height: 16px;
+font-size: 14px;
+color: var(--black-main);   
+}
+
+/* Fixed nav */
+
+.fixedmenu li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.fixedmenu ul{
+    width: 100%;
+    text-align: center;
+    margin-left: 3px;
+    
+}
+
+.fixedmenu{
+    position: fixed;
+   bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 10px;
+    border-top: solid 0.5px var(--gray-light);
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    background-color: #ffffff;
+    
+    
+     
+}
+/*
+.fixedmenu a{
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+font-weight: 700;
+letter-spacing: 0.5px;
+line-height: 14px;
+font-size: 12px;
+color: var(--green-main);
+}*/
+
+
+.navselected{
+color: var(--green-main);
+font-family: 'Inter', sans-serif;
+font-weight: 800;
+letter-spacing: 0.5px;
+line-height: 14px;
+font-size: 12px;
+
+}
+
+
+.navoptions{
+   color: var(--gray-dark);
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+letter-spacing: 0.5px;
+line-height: 14px;
+font-size: 12px;
+    
+}
+
+.navoptions img{
+    color: #333333;
+    
+}
+.circle-selected{
+    border-radius: 50%;
+    height: 3px !important;
+    width: 3px;
+    
+  font-size: 3px;
+}
+
+.navselected{
+color:  var(--green-main);
+}
+
+/* Detalle receta */
+.receta-title{
+    color:var(--white);
+}
+
+.resumen-receta{
+    background-color: var(--white);
+    border-top-left-radius: 16px 16px;
+    border-top-right-radius: 16px 16px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    
+}
+
+.caract-tiempo{
+    background-color: #BDF5C0;
+ padding-bottom: 10px;
+padding-left: 7px;
+padding-top: 10px;
+padding-right: 7px;    
+border-radius: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 25px;
+    margin-right: 3px;
+    height: 72px;
+    width: 65px;
+   
+
+}
+
+.caract-tiempo p{
+    color: var(--black-main);
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 16px;
+font-size: 14px;
+    padding-top: 5px;
+}
+
+.caract-review{
+     background-color: var(--yellow-star);
+ padding-top: 10px;
+    border-radius: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 72px;
+    width: 65px;
+}
+
+.caract-review p{
+    color: var(--black-main);
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 16px;
+font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.caract-dif{
+     background-color: var(--sky);
+ padding-top: 10px;
+    border-radius: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 72px;
+    width: 65px;
+}
+
+.caract-dif p{
+    color: var(--black-main);
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 16px;
+font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.caract-cantidad{
+     background-color: var(--purple);
+ padding-top: 10px;
+    border-radius: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 3px;
+    margin-right: 25px;
+    height: 72px;
+    width: 65px;
+}
+
+.caract-cantidad p{
+    color: var(--black-main);
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 16px;
+font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.titulo-detalle{
+    background-color: var(--white);
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.ingredientes{
+    margin-top:10px; 
+    margin-left: 10px; 
+   
+}
+
+.ingredientes p{
+    text-align: left;  
+}
+
+.lista-ingred{
+  margin-top:10px; 
+margin-left: 10px;   
+}
+
+.lista-ingred p{
+  text-align: left;
+    vertical-align: middle;
+}
+
+#detalle{
+margin: 0 auto;
+text-align: center;
+width: 100%;
+padding-top: 40px;   
+}
+
+.container2{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0;
+    margin-left: 0;}

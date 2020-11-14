@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+  <!-- Start your project here-->
+    <div id="bienvenida" class="container">
+    <div class="row stepper"> 
+        <div class="col-3">
+        <a href="onboarding2.html"><i class="fas fa-arrow-left green-text lg" aria-hidden="true" aria-label="Atrás"></i></a>    
+       </div>
+    <div class="col-5">
+       <p class="subtitle">Paso 2 de 4</p>  
+    </div>
+     <div class="col-3">
+         <ul class="stepper-pasos">
+         <li>
+          <img src="img/svg/step_2.svg" alt=" ">   
+        </li>
+         </ul>
+        
+        </div>
+    </div>  
+    <div class="row"> 
+        
+    <div class="col">
+         <h2 style="margin: auto;">¿Tenés alguna alergia?</h2>
+      
+    </div>
+        
+    </div> 
+     <div class="row">  
+    <div class="col">
+       <h6 style="margin: auto; margin-top: 20px;">Queremos cuidarte, agregá todas las comidas que puedan hacerte mal.</h6>  
+    </div>
+        
+    </div>
+        
+        
+        
+        <!-- autocomplete -->
+     <div class="row">
+    <div class="col autocomp-onboarding3">
+         <div class="md-form justify-content-center search">
+  <input type="search" id="form-autocomplete" class="form-control mdb-autocomplete " onclick="openOverlay()"  style="width: 80%; margin-left: 20px;">  
+  
+  <label for="form-autocomplete"  class="active label-search" >Buscá comidas que te den alergia &nbsp;<i class="fas fa-search" aria-hidden="true"></i></label>
+</div>
+         </div>    
+        
+    </div>
+        
+        
+        <div id="myOverlay" class="overlay">
+              <div class="row inputautocomplete">
+    <div class="col-10 autocomp-onboarding3">
+         <div class="md-form justify-content-center search">
+  <input type="search" id="form-autocomplete2" class="form-control mdb-autocomplete " onclick="openOverlay()"  style="width: 80%; margin-left: 20px;">  
+  
+  <label for="form-autocomplete2"  class="active label-search" >Buscá comidas que te den alergia &nbsp;<i class="fas fa-search" aria-hidden="true"></i></label>
+</div>
+         </div>    
+        <div class="col-2">  <a onclick="closeOverlay()">Cancelar</a></div>
+    </div>
+            
+           
+  
+  
+</div>
+    <script type="text/javascript">
+   // Open the full screen search box
+function openOverlay() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+// Close the full screen search box
+function closeOverlay() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+      
+        
+        
+</script>   
+        
+       <div class="row">
+        <div class="col"><img src="img/svg/illus_onboarding3.svg" alt=" " style="margin-top: 50px;"></div>
+        </div>
+        
+    <div class="row fixedbutton">  
+    <div class="col">
+     <div>
+    <button type="button" class="btn btn-primary btn-rounded" onclick="document.location='onboarding4.html'">Próximo paso</button>
+    
+    </div>
+        <button type="button" class="btn btn-link" onclick="document.location='home.html'">Lo hago después</button>
+    </div>
+    </div> 
+  
+    </div>
+    
+   
+    
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" src="js/autocomplete.js"></script>
+
+</body>
+</html>

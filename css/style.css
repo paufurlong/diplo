@@ -1,4 +1,4 @@
-body{max-width: 360px;
+body{max-width: 375px;
 background-color: var(--white-bg);}
 .btn-rounded{
 border-radius: 50px;
@@ -521,6 +521,7 @@ font-size: 14px;
 .ingredientes{
     margin-top:10px; 
     margin-left: 10px; 
+    margin-bottom: 20px;
    
 }
 
@@ -528,14 +529,13 @@ font-size: 14px;
     text-align: left;  
 }
 
-.lista-ingred{
-  margin-top:10px; 
-margin-left: 10px;   
-}
+
 
 .lista-ingred p{
   text-align: left;
     vertical-align: middle;
+    line-height: 50px;
+    color: var(--black-main);
 }
 
 #detalle{
@@ -551,3 +551,118 @@ padding-top: 40px;
   padding-left: 15px;
   margin-right: 0;
     margin-left: 0;}
+
+.textlink{
+    color: var(--green-main)!important;
+    margin-top: 0px !important;
+    text-align: left !important;
+    margin-bottom: 10px;
+}
+.lista-ingred a{
+    text-align: left !important;
+}
+
+.btn-rounded-out{
+    border: solid 1px var(--green-main) !important;
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1.25;
+line-height: 16px;
+font-size: 16px;
+    height: 48px;
+}
+
+.btn-outline-primary{
+    color: var(--green-main)!important;
+}
+
+/*info nutricional */
+
+.infonutricional{
+    width: 100% !important;
+    background-color: var(--white);
+    padding-top: 20px;
+    padding-left: 20px; 
+    padding-bottom: 10px;
+    box-shadow: rgba(143, 143, 178, 0.15) 0px 1px 2px;
+    
+}
+
+.infonutricional p{
+    text-align: left;
+     
+}
+
+.bold-info{
+    font-weight: 600;
+}
+
+.infonutricional p{
+    color: var(--black-main);
+    letter-spacing: 0.5px;
+line-height: 16px;
+font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.infonutricional p i{
+    color: var(--green-main);
+}
+
+.paramargin{
+    margin-top: 30px;
+}
+
+.receta p{
+    text-align: left;
+    vertical-align: text-top;
+    color: var(--black-main);
+}
+
+.numero{
+    font-weight: 600;
+}
+
+.receta{
+    padding-top:10px;
+}
+
+.reviews{
+    border-top: solid 1px #E8E8E8;
+     padding-top:10px;
+}
+
+.reviews p{
+    text-align: left;
+    vertical-align: text-top;
+    color: var(--black-main);
+    
+}
+
+.usuario{
+    font-weight: 600;
+    margin-bottom: 0px;   
+}
+
+.opinion{
+   border-bottom: solid 1px #E8E8E8;
+    padding-bottom: 10px;
+}
+
+.textlink{
+   font-family: 'Inter', sans-serif;
+font-weight: 600;
+letter-spacing: 1;
+line-height: 20px;
+font-size: 16px;
+color: var(--green-main);  
+text-align: left; 
+margin-left: 0px;
+padding-left: 0px;
+margin-bottom: 100px;
+}
+
+.textlink a{
+  color: var(--green-main); 
+font-weight: 600;
+}

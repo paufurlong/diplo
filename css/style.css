@@ -184,8 +184,13 @@ h5{ text-align: left;}
   
 }
 
-a{font-weight: bold;
-color: green;}
+a{font-weight: 600;
+color: var(--green-main);
+ font-family: 'Inter', sans-serif;
+letter-spacing: 0.5px;
+line-height: 20px;
+font-size: 16px;  
+ }
 
 .inputautocomplete{
     margin-top: 20px;
@@ -206,6 +211,13 @@ color: green;}
     margin-top: 25px;
     
 }
+
+
+.input{
+   
+    border: solid 0px!important;
+    
+}
 .label-search{
     padding-left: 15px;
     font-family: 'Inter', sans-serif;
@@ -213,13 +225,27 @@ font-weight: 400;
 letter-spacing: 0.5px;
 line-height: 18px;
 font-size: 16px;
-color: var(--gray-dark);  
+color: var(--gray-dark);
+text-align: left;
+position: absolute;
+    top: 40px;
+    left: 30px;
 }
 
 .titulo-paso3{
     text-align: center;
 }
 
+.btn-cancelar{
+    padding-top: 35px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+.active:focus{
+   color: var(--green-main)!important; 
+}
 
 .navselected{
 color: #219653;
@@ -665,4 +691,18 @@ margin-bottom: 100px;
 .textlink a{
   color: var(--green-main); 
 font-weight: 600;
+}
+
+/* autocomplete */
+.autocomplete-items{
+    line-height: 40px;
+    font-family: 'Inter', sans-serif;
+color: var(--gray-main);
+}
+
+.autocomplete-items strong{
+    font-weight: 600;
+}
+.autocomplete-active{
+    background-color: var(--white-bg);
 }

@@ -159,13 +159,18 @@ text-align: center;}
 .paso{height: 100px;
 vertical-align: middle;}
 
-.fixedbutton {
+.fixedbutton{
     position: fixed;
    bottom: 20px;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
     
      
+}
+
+.fixedbutton button{
+  width: 90%;  
 }
 
 .custom-control-input:checked~.custom-control-label::before{

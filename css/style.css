@@ -349,7 +349,8 @@ font-weight: 400;
 letter-spacing: 1.25;
 line-height: 16px;
 font-size: 14px;
-color: var(--black-main);   
+color: var(--black-main);  
+transform: translateX(-10px);
 }
 
 /* Fixed nav */
@@ -949,7 +950,8 @@ font-weight: 500;
     font-family: 'Inter', sans-serif;
 font-weight: 400;
     font-size: 14px;
-    color: var(--black-main);     
+    color: var(--black-main);   
+         
 }
 
 .visually-hidden {
@@ -965,4 +967,31 @@ font-weight: 400;
     border: solid 1px var(--gray-light);
 }
 
-        
+   .prueba-label:focus{
+  outline: 1px dashed var(--green-main);
+       border-color: #80bdff;
+}    
+
+input:focus + prueba.label { color:red; font-weight: bold;  outline: 1px dashed var(--green-main);}
+
+input + .prueba-label{
+    *, ::after, ::before {
+    box-sizing: border-box;
+        text-decoration: underline;
+        outline: 1px dashed var(--green-main);
+    }}
+.prueba-label:hover{
+     outline: 1px dashed var(--green-main);
+}
+
+input[type="checkbox"], custom-control-input:focus{
+    box-shadow: 0 0 5px rgba(98, 101, 228, 1) !important;
+}
+custom-control-input:focus ~ .label-comida2::before {
+  box-shadow: 0 0 0 0.2rem #D5EAE4 !important;
+}
+
+.fixedbutton{
+    background-color: var(--white-bg);
+    
+}

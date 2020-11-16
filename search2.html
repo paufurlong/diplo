@@ -25,23 +25,51 @@
 
   <!-- Start your project here-->
     <div  class="container">
-  
-    
-
+     
+      <div id="autocompleteprueba" class="autocompleteprueba">
+  <input class="autocomplete-input"
+    placeholder="Search for a country"
+    aria-label="Search for a country"
+  >
+  <ul class="autocomplete-results"></ul>
+</div>
+        <script>
+        new Autocomplete('#autocompleteprueba', {
+    // options here
+}
+                         
+                         window['countries'] = [
+  'Afghanistan',
+  'Albania',
+  'Algeria',
+  'Andorra',
+  ...
+]
+                         
+                    new Autocomplete('#autocompleteprueba', {
+    search: input => {
+      if (input.length < 1) { return [] }
+      return countries.filter(country => {
+        return country.toLowerCase()
+          .startsWith(input.toLowerCase())
+      })
+    }
+})
+        
+        </script>
+      
   <div class="row inputautocomplete">
     <div class="col-10 autocomp-onboarding3">
          <div class="md-form justify-content-center">
   <input type="search" autofocus id="form-autocomplete2" class="form-control mdb-autocomplete " style="width: 100%;" autocomplete="off">  
   
-  <label for="form-autocomplete2"  class="active label-search" style="padding: 0!important;">Buscá recetas &nbsp;</label>
+  <label for="form-autocomplete2"  class="active label-search" style="padding: 0!important;">Buscá comidas que te den alergia &nbsp;</label>
 </div>
         
         
          </div>    
         <div class="col-2 btn-cancelar">  <a href="home.html">Cancelar</a></div>
     </div>
-        
-        <div class="autocomplete-items" onclick="document.location='home.html'"></div>
 
         <script>
         window.onload = function() {
@@ -49,8 +77,6 @@
 }
         
         </script> 
-        
-        
       <script>
 autocomplete(document.getElementById("form-autocomplete2"), food);
           
@@ -143,10 +169,36 @@ autocomplete(document.getElementById("form-autocomplete2"), food);
 </script>  
         
 
-       
+       <input type="text" name="mysuper_field" id="id_mysuper_field" class="js-combobox" list="beers" data-combobox-prefix-class="combobox" />
+ <datalist id="beers">
+  <option value="Meteor">
+  <option value="Pils">
+  <option value="Kronenbourg">
+  <option value="Kronenbourg 2 (for test)">
+  <option value="Kronenbourg 3 (for test)">
+  <option value="Grimbergen">
+ </datalist>
   
+        <script>
+        var $js_combobox = $('.js-combobox'),
+ $body = $('body'),
+ default_text_help = 'Use tabulation (or down) key to access and browse suggestions after input. Confirm your choice with enter key, or esc key to close suggestions box.',
+ default_class_for_invisible_text = 'invisible',
+ suggestion_single = 'There is ',
+ suggestion_plural = 'There are ',
+ suggestion_word = 'suggestion',
+ suggestion_word_plural = 'suggestions',
+ button_clear_title = 'clear this field',
+ button_clear_text = 'X',
+ case_sensitive = 'yes',
+ min_length = 0, 
+ limit_number_suggestions = 666,
+ search_option = 'beginning', // or 'containing'
+ see_more_text = 'See more results…',
+ tablo_suggestions = [];
+        
+        </script>
     </div>
-    
    
     
   <!-- End your project here-->
@@ -162,5 +214,8 @@ autocomplete(document.getElementById("form-autocomplete2"), food);
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript" src="js/autocomplete.js"></script>
 
+<script type="text/javascript" src="js/autocomplete/jquery-accessible-autocomplete-list-aria.js"></script>
+<script type="text/jscript" src="js/autocomplete/bower.json"></script>
+<script type="text/jscript" src="js/autocomplete/package.json"></script>
 </body>
 </html>

@@ -324,25 +324,36 @@ left: 16px;
 box-shadow: 0px 4px 8px rgba(143, 143, 178, 0.15);
 
 }
+.cardhome:focus(
+border: solid 1px var(--gray-medium);
+)
+.carhome:active(
+box-shadow: 0px 4px 8px #666666;
+)
 
 .cardtitle{
 font-weight: 600;
 font-size: 16px;
 line-height: 19px;
-text-align: left;
+text-align: left !important;
 padding-left: 10px;
     
 
+}
+.linkcard{
+    padding-left: 10px;;
 }
 
 .bajada-card{
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.5px;
+    margin-top: 0;
 }
 
 .nombrereceta{
 margin-top: 10px;
+  height: 30px;
     
 }
 .tag{

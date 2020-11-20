@@ -210,6 +210,18 @@ vertical-align: middle;}
   width: 90%;  
 }
 
+.fixedsteps{
+   position: fixed;
+   top: 0px;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: var(--white-bg);
+    z-index: 1;
+}
+
 .custom-control-input:checked~.custom-control-label::before{
     background-color: var(--green-main)!important;
     
@@ -381,6 +393,10 @@ border-radius: 8px;
     text-decoration: none;
     list-style: none;
    text-align: right;
+}
+
+.video{
+margin-top: 20px;    
 }
 
 .circle{

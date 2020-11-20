@@ -1060,7 +1060,7 @@ custom-control-input:focus ~ .label-comida2::before {
 
 [role="option"] {
   padding: 0.25em;
-  color: #999;
+  color: var(--gray-main);
   border: 2px solid;
   border-top: 0;
 }

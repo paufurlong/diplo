@@ -157,10 +157,15 @@ text-align: center;
     border: 1px #333333;
 }
 button:focus {
-  border: 1px dotted #999999;
- outline: none; 
+  border: 2px solid var(--yellow-star) !important;
+    border-radius: 20px;
+ 
 }
 
+btn:focus {
+  border: 1px solid #999999 !important;
+ outline:1px solid #333333 !important; 
+}
 button{display: block;
     margin: 0 auto;
 align-items: center;}
@@ -870,7 +875,7 @@ font-weight: 500;
 .fixedbuttons ul{
     width: 100%;
     text-align: center;
-    margin-left: 3px;
+    margin-left: 0px;
     display: inline-block;
     
 }

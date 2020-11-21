@@ -3799,8 +3799,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #005957;
+  background-color: #005957;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -6734,7 +6734,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #0062cc !important;
+  background-color: #005957 !important;
 }
 
 .bg-secondary {
@@ -6764,7 +6764,7 @@ button.bg-success:focus {
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #117a8b !important;
+  background-color: #005957 !important;
 }
 
 .bg-warning {

@@ -327,6 +327,11 @@ position: absolute;
     padding-left: 25px;
 }
 
+.lupa-home{
+    float: right;
+    padding-left: 205px!important;
+}
+
 .titulo-paso3{
     text-align: center;
 }
@@ -394,6 +399,8 @@ padding-left: 10px;
     line-height: 18px;
     letter-spacing: 0.5px;
     margin-top: 0;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .nombrereceta{
@@ -781,6 +788,7 @@ font-size: 14px;
 
 .numero{
     font-weight: 600;
+   
 }
 
 .receta{

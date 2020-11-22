@@ -76,7 +76,7 @@ font-weight: 600;
       <div class="submitted submitted--hidden">
         <p>You submitted:</p>
         <ul>
-          <li><code>"last-location": <span class="submitted__last-location"></span></code></li>
+          <li><code>"last-location2": <span class="submitted__last-location2"></span></code></li>
           <li><code>"passport-location": <span class="submitted__passport-location"></span></code></li>
         </ul>
         <hr />
@@ -84,9 +84,9 @@ font-weight: 600;
 <div class="row">
 <div class="col-10">
       <form action="form.html" method="get">
-        <label for="last-location" >Buscá recetas</label>
+        <label for="last-location2" >Buscá comidas que te den alergia</label>
         <div class="autocomplete-wrapper" >
-          <select name="last-location" id="last-location" onchange="change_url( 'https://paufurlong.github.io/diplo/onboarding3-chips.html');" autofocus >
+          <select name="last-location2" id="last-location2" onchange="change_url( 'https://paufurlong.github.io/diplo/onboarding3-chips.html');" autofocus >
             <option selected="true" disabled="disabled"> </option>
             <option value="territory:AE-AZ">Intolerancia al glúten</option>
             <option value="country:AF">Intolerancia a la lactosa</option>
@@ -108,7 +108,7 @@ font-weight: 600;
             
           </select>
         </div>
-         <div class="col-2 btn-cancelar" style="float: right; position: absolute; right:-20px; top: 30px; ">  <a href="../../home.html" style="font-weight: 600; color: #007370;
+         <div class="col-2 btn-cancelar" style="float: right; position: absolute; right:-20px; top: 30px; ">  <a href="../../onboarding3.html" style="font-weight: 600; color: #007370;
 font-family: 'Inter', sans-serif; letter-spacing: 0.5px;line-height: 20px;font-size: 16px;  text-decoration: none;">Cancelar</a></div>
       </form>
         </div>
@@ -128,7 +128,7 @@ font-family: 'Inter', sans-serif; letter-spacing: 0.5px;line-height: 20px;font-s
     
     <script type="text/javascript" src="../dist/accessible-autocomplete.min.js"></script>
     <script type="text/javascript">
-      var selectEl = document.querySelector('#last-location')
+      var selectEl = document.querySelector('#last-location2')
       accessibleAutocomplete.enhanceSelectElement({
         autoselect: true,
         defaultValue: selectEl.options[selectEl.options.selectedIndex].innerHTML,
@@ -150,7 +150,7 @@ font-family: 'Inter', sans-serif; letter-spacing: 0.5px;line-height: 20px;font-s
         var submittedEl = document.querySelector('.submitted')
         submittedEl.classList.remove('submitted--hidden')
         var params = new URLSearchParams(document.location.search.split('?')[1])
-        document.querySelector('.submitted__last-location').innerHTML = params.get('last-location')
+        document.querySelector('.submitted__last-location2').innerHTML = params.get('last-location2')
         document.querySelector('.submitted__passport-location').innerHTML = params.get('passport-location')
       }
     </script>

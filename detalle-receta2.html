@@ -23,8 +23,25 @@
 <body>
 
   <!-- Start your project here-->
-    <div id="detalle" class="container2" style="background-image: url(img/svg/fondo-detalle.png); background-repeat: no-repeat; width: 100%!important; background-size:contain;">
-        <main>
+          <main>
+               <div class="row stepper fixedsteps" > 
+        <div class="col-3">
+         <a href="home.html"><i class="fas fa-arrow-left white-text lg"  aria-label="Atrás" ></i></a>        
+       </div>
+    <div class="col-5">
+       <p class="subtitle">Receta</p>  
+    </div>
+     <div class="col-3">
+         <ul class="stepper-pasos">
+          <li>
+          <a href="#"><img src="img/svg/icon_fav_off.svg" alt="Agregar a favoritos" > </a>  
+        </li>
+         </ul>
+        
+        </div>
+    </div>  
+            <div id="detalle" class="container2" style="background-image: url(img/svg/fondo-detalle.png); background-repeat: no-repeat; width: 100%!important; background-size:contain;">
+         
         <div class="row stepper" style="height: 209px;margin: 0 auto;"> 
         <div class="col-3">
         <a href="home.html"><i class="fas fa-arrow-left white-text lg"  aria-label="Atrás" style="color: var(--white)!important;"></i></a>    
@@ -43,7 +60,7 @@
     </div>  
         
     <div class="row">
-       <div class="col resumen-receta">
+        <div class="col resumen-receta">
         <div class="row">
             <div class="col caract-tiempo"><img src="img/svg/icon-clock.svg" alt="Tiempo de preparación"><p>20 min</p></div>
             
@@ -60,7 +77,7 @@
         <div class="row">
         <div class="col titulo-detalle"><h1 id="h2">Ensalada de estación</h1></div>
         </div>
-        
+         
         <div class="ingredientes" id="todoslosingred">
         <div class="row">
          <div class="col">  <h2 class="subtitle encabezado2">Ingredientes</h2></div>   
@@ -110,7 +127,8 @@
       
         <div class="row ">
             <div class="col infonutricional">
-              <h2 class="subtitle encabezado2">Información nutricional</h2>
+                <h2 class="subtitle encabezado2">Información nutricional</h2>
+           
             <div class="row">
             <div class="col"><p class="paramargin"> <i class="fas fa-circle" aria-hidden="true" aria-label=" "></i>&nbsp;<span class="bold-info">65%</span> Vegetales</p>
                 <p> <i class="fas fa-circle" aria-hidden="true" aria-label=" " style="color: var(--yellow-star);"></i>&nbsp;<span class="bold-info">25%</span> Proteínas</p>
@@ -122,24 +140,25 @@
             </div>
         
       <div class="row ">
-             <div class="col receta">
-            <p class="subtitle">Receta</p>
+            <div class="col receta">
+                
+              <h2 class="subtitle encabezado2" style="padding-bottom: 10px;">Pasos de la receta</h2>
             <div class="row lista-receta">
-            <div class="col"><p class="numero" style=" padding-left: 25px;">  <a href="receta-paso1.html">1. Sanitizá los vegetales y cortalos</a></p>
+            <div class="col"><p class="numero" >1.  <a href="receta-paso1.html"> Sanitizá los vegetales y cortalos <i class="fas fa-chevron-right" aria-label="Ver más"></i></a></p>
                 </div>   
             </div>
             <div class="row lista-receta">
-            <div class="col"><p class="numero" style=" padding-left: 25px;"> <a href="receta-paso1.html">2. Cociná los garbanzos</a></p>
-                </div>   
-            </div>
-            
-            <div class="row lista-receta">
-            <div class="col"><p class="numero" style=" padding-left: 25px;"> <a href="receta-paso1.html">3. Prepará la vinagreta</a></p>
+            <div class="col"><p class="numero" >2.  <a href="receta-paso1.html">Cociná los garbanzos <i class="fas fa-chevron-right" aria-label="Ver más"></i></a></p>
                 </div>   
             </div>
             
             <div class="row lista-receta">
-            <div class="col"><p class="numero" style=" padding-left: 25px;"> <a href="receta-paso1.html">4. Integrá los Ingredientes</a></p>
+            <div class="col"><p class="numero" >3. <a href="receta-paso1.html">Prepará la vinagreta <i class="fas fa-chevron-right" aria-label="Ver más"></i></a></p>
+                </div>   
+            </div>
+            
+            <div class="row lista-receta">
+            <div class="col"><p class="numero" >4. <a href="receta-paso1.html">Integrá los Ingredientes <i class="fas fa-chevron-right" aria-label="Ver más"></i></a></p>
                 </div>   
             </div>
            
@@ -153,7 +172,7 @@
             <div class="col-2"><img src="img/svg/avatar1.png" alt=" ">
                 </div>   
                 <div class="col-10"><div class="row"><div class="col-7"><p class="usuario">Anita pita</p></div>
-                    <div class="col-5"><p class="bajada-card" style="text-align: right;"><img src="img/svg/estrella.svg" alt="Estrella" style="text-align: left; padding-left: 10px; vertical-align: top;">  4 de 5</p></div>    
+                    <div class="col-5"><p class="bajada-card" style="text-align: right;">  4 de 5<img src="img/svg/estrella.svg" alt="Estrella" style="text-align: left; padding-left: 10px; vertical-align: top;"></p></div>    
                 </div>
                 <p class="opinion">Gracias la receta me salió genial. Riquísimo y súper fácil.</p></div>
             </div>
@@ -161,7 +180,7 @@
             <div class="col-2"><img src="img/svg/avatar2.png" alt=" ">
                 </div>   
                 <div class="col-10"><div class="row"><div class="col-7"><p class="usuario">Mónica Gutierrez</p></div>
-                <div class="col-5"><p class="bajada-card" style="text-align: right;"><img src="img/svg/estrella.svg" alt="Estrella" style="text-align: left; padding-left: 10px; vertical-align: top;">  3 de 5</p></div>    
+                <div class="col-5"><p class="bajada-card" style="text-align: right;">  3 de 5<img src="img/svg/estrella.svg" alt="Estrella" style="text-align: left; padding-left: 10px; vertical-align: top;"></p></div>    
                 </div>
                 <p class="opinion">Muy rica, pero pensé que iba a ser mucho mejor y llevarme menos tiempo.</p></div>
             </div>
@@ -169,7 +188,7 @@
             <div class="col-2"><img src="img/svg/avatar3.png" alt=" ">
                 </div>   
                 <div class="col-10"><div class="row"><div class="col-7"><p class="usuario">Hugo Orlando Gatti</p></div>
-                <div class="col-5"><p class="bajada-card" style="text-align: right;"><img src="img/svg/estrella.svg" alt="Estrella" style="text-align: left; padding-left: 10px; vertical-align: top;">  5 de 5</p></div>    
+                <div class="col-5"><p class="bajada-card" style="text-align: right;">5 de 5 <img src="img/svg/estrella.svg" alt="Estrella" style="text-align: left; padding-left: 10px; vertical-align: top;">  </p></div>    
                 </div>
                 <p class="opinion">Desde que el cardiologo me dijo que tenía que comer saludable, esta receta me salvó la vida. Es muy rica, saludable y la super recomiendo. De diez muchachos se lucieron!</p></div>
             </div>
@@ -191,8 +210,9 @@
     </div>
     
           </div>
+                </div>
             </main>
-    </div>
+    
     
    
     

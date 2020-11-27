@@ -150,6 +150,12 @@ text-align: center;
     text-align: left;
 }
 
+.fa-chevron-right{
+    width: 12px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
 .custom-control-input:not(:disabled):active~.custom-control-label::before {
     background-color: var(--green-aqua) !important;
     border-color: var(--white)!important;

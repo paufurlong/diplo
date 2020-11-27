@@ -576,8 +576,8 @@ color:  var(--green-main);
 }
 
 /* Detalle receta */
-.receta-title{
-    color:var(--white);
+#receta-title{
+    padding-left: 30px;
 }
 
 .resumen-receta{
@@ -589,6 +589,10 @@ color:  var(--green-main);
     height: 100px;
     
 }
+
+.fa-times{
+color:var(--gray-medium);
+    }
 
 .caract-tiempo{
     background-color: #BDF5C0;
